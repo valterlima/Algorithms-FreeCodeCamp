@@ -12,6 +12,12 @@ Basic Algorithms completed:
 - Repeat a string repeat a string
 - Truncate a string
 - Chunky Monkey
+- Slasher Flick
+- Mutations
+- Falsy Bouncer
+- Seek and Destroy
+- Where do I belong
+- Caesars Cipher
 
 Intermediate Algorithms completed:
 - Soon ...
