@@ -1,15 +1,24 @@
-'use strict';
+// Flatten a nested array. You must account for varying levels of nesting.
 
 function steamroller(arr) {
+	var result = [];
 
-  return arr.map(function(item){
-  	console.log(item);
-  	while(Array.isArray(item)){
-  		item = item.push(...item)
-  	}
-  	return item;
-  });
-}
+	var flatten = function(arg){
+		if (!Array.isArray(arg)){
+	  	result.push(arg);
+	  }
+	  else{
+	    arg.forEach(function(item){
+	    	flatten(item);
+	    });
+	  }
+	}
+  arr.forEach(flatten);
 
-var a = steamroller([1, [2], [3, [[4]]]]);
-console.log(a);
+  return result;
+}  
+
+steamroller([[["a"]], [["b"]]]); // ["a", "b"].
+steamroller([1, [2], [3, [[4]]]]); // [1, 2, 3, 4].
+steamroller([1, [], [3, [[4]]]]); // [1, 3, 4].
+steamroller([1, {}, [3, [[4]]]]); // [1, {}, 3, 4].
