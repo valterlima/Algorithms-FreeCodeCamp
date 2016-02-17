@@ -19,7 +19,7 @@ Basic Algorithms completed:
 - Where do I belong
 - Caesars Cipher
 
-Intermediate Algorithmsd:
+Intermediate Algorithms completed:
 - Sum All Numbers in a Range
 - Diff Two Arrays
 - Roman Numeral Converter
