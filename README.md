@@ -19,5 +19,23 @@ Basic Algorithms completed:
 - Where do I belong
 - Caesars Cipher
 
-Intermediate Algorithms completed:
-- Soon ...
+Intermediate Algorithmsd:
+- Sum All Numbers in a Range
+- Diff Two Arrays
+- Roman Numeral Converter
+- Where art thou
+- Search and Replace
+- Pig Latin
+- DNA Pairing
+- Missing letters
+- Boo who
+- Sorted Union
+- Convert HTML Entities
+- Sum All Odd Fibonacci Numbers
+- Sum All Primes
+- Finders Keepers
+- Drop it
+- Steamroller
+- Binary Agents
+- Everything Be True
+- Arguments Optional
